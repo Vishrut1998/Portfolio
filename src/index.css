@@ -14,17 +14,12 @@
         @apply cursor-pointer
     }
 }
-@layer utilities {
-    /* Chrome, Safari and Opera */
-    .hidescroll::-webkit-scrollbar {
-      display: none;
-    }
+::-webkit-scrollbar {
+    width:0;
+    background: transparent;
+  }
 
-    .no-scrollbar {
-      -ms-overflow-style: none ; /* IE and Edge */
-      scrollbar-width: none; /* Firefox */
-    }
-}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
