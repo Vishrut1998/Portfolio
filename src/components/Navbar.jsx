@@ -3,27 +3,13 @@ import {FaBars, FaTimes , FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import VishrutLogo from '../assets/VishrutLogo.png';
-import {Link, Button} from 'react-scroll';
+import {Link} from 'react-scroll';
 import Social from './Social';
 
 
 const Navbar = () => {
     const [nav,setNav] = useState(false);
     const handleClick = () => setNav(!nav);
-
-    
-    {/*const downloadPdf = (url,filename) => {
-        if(!url){
-            return;
-        }
-        const el = document.createElement('a');
-        el.setAttribute('href' , 'data:application/octet-stream;base64,' + url);
-        el.setAttribute('download',filename);
-        document.body.appendChild(el);
-        el.click();
-        document.body.removeChild(el);
-    }
-*/}
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
