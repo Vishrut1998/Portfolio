@@ -77,7 +77,7 @@ const Navbar = () => {
                       </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                      <a className='flex justify-between items-center w-full text-gray-300 gap-4 ml-5 mr-6' target="_blank" href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:8b54570e-ea27-3ade-a78a-a1cad10d0481">Resume <BsFillPersonLinesFill size={30} />
+                      <a className='flex justify-between items-center w-full text-gray-300 gap-4 ml-5 mr-6' target="_blank" href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9ffd9f5e-46cf-4e30-911f-fc07369b91d5">Resume <BsFillPersonLinesFill size={30} />
                       </a>
                   </li>
 
