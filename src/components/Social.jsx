@@ -21,7 +21,7 @@ const Social = () => {
                  <a target="_blank" href="https://www.linkedin.com/in/vishrut-sharma-448588166">
                      <button className='text-center flex gap-2 rounded-lg px-5 py-3 m-2 bg-blue-600 text-white-700 font-bold text-lg '>Linkedin<FaLinkedin size={25} /></button>
                 </a>
-                <a target="_blank" href="https://wannacatchup.herokuapp.com/">
+                <a target="_blank" href="https://github.com/Vishrut1998">
                      <button className='text-center flex gap-2 rounded-lg px-7 py-3 m-2 bg-[#333333] text-white-700 font-bold text-lg '>Github<FaGithub size={30} /></button>
                 </a>
                 <a>

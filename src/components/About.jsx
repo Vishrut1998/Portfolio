@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div>
                     <p className='mr-5'>
-                     I am a web developer with over 2.5+ years of experience. I have worked on technologies like ReactJS and NodeJS framework, JavaScript, HTML and CSS. My main area of expertise is frontend development which focuses on building web applications,
+                     I am a web developer with over 3+ years of experience. I have worked on technologies like ReactJS and NodeJS framework, JavaScript, HTML and CSS. My main area of expertise is frontend development which focuses on building web applications,
                      features and maintain them. 
                     </p>
                 </div>
