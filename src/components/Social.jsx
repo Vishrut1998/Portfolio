@@ -27,7 +27,7 @@ const Social = () => {
                 <a>
                      <button className='text-center flex gap-2 rounded-lg px-8 py-3 m-2 bg-[#6fc2b0] text-white-700 font-bold text-lg '><Link to='contact' smooth={true} duration={500}>Email</Link><HiOutlineMail size={30} /></button>
                 </a>
-                <a target="_blank" href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9ffd9f5e-46cf-4e30-911f-fc07369b91d5">
+                <a target="_blank" href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:ee9b0b4a-c27c-499f-ab77-3ad8a155d912">
                      <button className='text-center flex gap-2 rounded-lg px-5 py-3 m-2 bg-[#565f69] text-white-700 font-bold text-lg '>Resume<BsFillPersonLinesFill size={30} /></button>
                 </a>
                 
