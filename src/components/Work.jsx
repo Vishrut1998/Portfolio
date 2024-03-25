@@ -81,7 +81,7 @@ const Work = () => {
                 Chat Application
               </span>
               <div className="pt-8 text-center">
-                <a target="_blank" href="https://wannacatchup.herokuapp.com/">
+                <a target="_blank" href="https://chatapplication-spf5.onrender.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
