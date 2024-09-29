@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 import VishrutLogo from '../assets/VishrutLogo.png';
 import {Link} from 'react-scroll';
 import Social from './Social';
+import { GITHUB_URL, LINKEDIN_URL, RESUME_LINK } from '../constants';
 
 
 const Navbar = () => {
@@ -65,11 +66,11 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                      <a className='flex justify-between items-center w-full text-gray-300 gap-4 ml-5 mr-6' target="_blank" href="https://www.linkedin.com/in/vishrut-sharma-448588166">Linkedin <FaLinkedin size={30} />
+                      <a className='flex justify-between items-center w-full text-gray-300 gap-4 ml-5 mr-6' target="_blank" href={LINKEDIN_URL}>Linkedin <FaLinkedin size={30} />
                       </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                      <a className='flex justify-between items-center w-full text-gray-300 gap-6 ml-5 mr-6' target="_blank" href="https://github.com/Vishrut1998">Github <FaGithub size={30} />
+                      <a className='flex justify-between items-center w-full text-gray-300 gap-6 ml-5 mr-6' target="_blank" href={GITHUB_URL}>Github <FaGithub size={30} />
                       </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
@@ -77,7 +78,7 @@ const Navbar = () => {
                       </a>
                   </li>
                   <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                      <a className='flex justify-between items-center w-full text-gray-300 gap-4 ml-5 mr-6' target="_blank" href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:ee9b0b4a-c27c-499f-ab77-3ad8a155d912">Resume <BsFillPersonLinesFill size={30} />
+                      <a className='flex justify-between items-center w-full text-gray-300 gap-4 ml-5 mr-6' target="_blank" href={RESUME_LINK}>Resume <BsFillPersonLinesFill size={30} />
                       </a>
                   </li>
 
