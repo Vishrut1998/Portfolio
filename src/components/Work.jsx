@@ -3,7 +3,6 @@ import Expensify from "../assets/Expensify.png";
 import ChatApp from "../assets/ChatApp.png";
 import ContactApp from "../assets/ContactApp.png";
 import FoodApp from "../assets/FoodApp.png";
-import WorkImg from "../assets/workImg.jpeg";
 
 const Work = () => {
   return (
@@ -34,7 +33,7 @@ const Work = () => {
                 Food Application
               </span>
               <div className="pt-8 text-center">
-                <a target="_blank" href="https://foodymouth.netlify.app/">
+                <a target="_blank" rel="noreferrer" href="https://foodymouth.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
@@ -58,6 +57,7 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://expensifyourbudget.herokuapp.com/"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
@@ -81,7 +81,7 @@ const Work = () => {
                 Chat Application
               </span>
               <div className="pt-8 text-center">
-                <a target="_blank" href="https://chatapplication-spf5.onrender.com/">
+                <a target="_blank" rel="noreferrer" href="https://chatapplication-spf5.onrender.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
@@ -105,6 +105,7 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://displaymycontacts.netlify.app/"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
