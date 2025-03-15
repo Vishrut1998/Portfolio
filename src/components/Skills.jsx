@@ -7,11 +7,15 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import MySQL from '../assets/MySQL.png';
 import Java from '../assets/Java.png';
+import TypeScript from '../assets/typeScript.png';
+import MaterialUi from '../assets/materialUI.svg'
+import NextJs from '../assets/NextJs.svg';
+import Redux from '../assets/redux.svg';
 
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-[750px] bg-[#0a192f] text-gray-300'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'> 
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full cursor-pointer'> 
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
                 <p className='py-4'>These are the technologies I've worked with:</p>
@@ -30,8 +34,24 @@ const Skills = () => {
                     <p className='my-4'>JAVASCRIPT  </p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className="w-20 mx-auto" src={TypeScript} alt="HTML_icon"></img>
+                    <p className='my-4'>TYPESCRIPT  </p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className="w-20 mx-auto" src={ReactImg} alt="HTML_icon"></img>
                     <p className='my-4'>REACT JS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className="w-20 mx-auto" src={NextJs} alt="HTML_icon"></img>
+                    <p className='my-4'>NEXT JS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className="w-20 mx-auto" src={Redux} alt="HTML_icon"></img>
+                    <p className='my-4'>REDUX</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className="w-20 mx-auto" src={MaterialUi} alt="HTML_icon"></img>
+                    <p className='my-4'>MATERIAL UI</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className="w-20 mx-auto" src={GitHub} alt="HTML_icon"></img>
