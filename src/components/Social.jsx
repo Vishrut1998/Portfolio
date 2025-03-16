@@ -9,7 +9,7 @@ const Social = () => {
   return (
     <div
       name="social"
-      className="sm:w-full h-[133vh] bg-[#0a192f] text-gray-300 social-content"
+      className="mt-[11rem] sm:w-full h-[133vh] bg-[#0a192f] text-gray-300 social-content"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
         <div className="p-6 ">
