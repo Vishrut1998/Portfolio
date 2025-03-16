@@ -15,7 +15,7 @@ import Redux from '../assets/redux.svg';
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-[750px] bg-[#0a192f] text-gray-300'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full cursor-pointer'> 
+        <div className='mt-[10rem] md:mt-[4rem] max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full cursor-pointer'> 
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
                 <p className='py-4'>These are the technologies I've worked with:</p>
